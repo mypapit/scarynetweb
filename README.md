@@ -18,6 +18,8 @@ ScaryNet is trained using TensorFlow with Keras, and deployed with the help of T
 Mohammad Hafiz bin Ismail
 
 ## Referencing this work
+[![DOI](https://zenodo.org/badge/448810208.svg)](https://zenodo.org/badge/latestdoi/448810208)
+
 You can cite ScarynetWeb as:
 
 Ismail, M. H. (2022). ScaryNet Filter - a test website for ScaryNet Convolutional Neural Network. Retrieved <DATE>, <YEAR>, from: https://demo.mobilepit.com/ai/scarynet. doi:10.5281/zenodo.5862059
