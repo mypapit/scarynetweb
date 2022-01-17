@@ -1,0 +1,100 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  margin: 2rem 1rem;
+}
+
+img {
+  transition: filter 0.5s linear;
+
+}
+
+section.about {
+
+max-width:850px;
+text-align:justify;
+
+}
+
+.file-group {
+  padding: 1rem;
+  background: #efefef;
+  border-radius: 1rem;
+}
+
+#image {
+  max-width: 90%;
+  width: 450px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.blur {
+        filter: blur(20px) grayscale(1);
+    }
+
+.image-section {
+  display: none;
+  position: relative;
+}
+
+.image-loaded .image-section {
+  display: block;
+}
+
+.loading .loader {
+  display: block;
+}
+
+
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
+  color: #888;
+  text-align: center;
+}
+
+.loader {
+  display: none;
+}
+
+.showprobability {
+ display:none;
+
+}
+
+.loading .image-section,
+.loading .file-section {
+  display: none;
+}
+
+#box {
+  left: 0px;
+  width: 100%;
+  margin:0px;
+  padding:0px;
+  background-color: #fef5c0;
+  color: #000;
+
+
+}
+
+ul {
+list-style-type: square;
+
+}

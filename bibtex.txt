@@ -1,0 +1,1 @@
+ @misc{ismail_2022, title={ScaryNet Filter Web Test}, url={https://demo.mobilepit.com/ai/scarynet}, journal={MobilePit Demo}, publisher={github.com}, author={Ismail, Mohammad Hafiz}, year={2022}, month={Jan}} 

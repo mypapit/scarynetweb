@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <title>ScaryNet Filter Web Test</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="author" content="Mohammad Hafiz bin Ismail" />
+  <meta name="description" content="ScaryNet Filter - a test website for ScaryNet Convolutional Neural Network" />
+  <meta name="dc.identifier" value="doi:10.000/123" />
+  <meta property="og:title" content="ScaryNet Filter Web Test" />
+  <meta property="og:description" content="ScaryNet Filter - a test website for ScaryNet Convolutional Neural Network" />
+  <meta property="og:image" content="scary_logo.png" />
+  <meta property="og:site_name" content="ScaryNet Filter Web Test" />
+  <meta name="DC.Publisher" content="Mohammad Hafiz" />
+  <meta name="DC.Language" content="en" />
+  <meta name="DC.Title" content="ScaryNet Filter Web Test" />
+  <meta name="DC.description" content="ScaryNet Filter - a test website for ScaryNet Convolutional Neural Network" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="canonical" href="https://demo.mobilepit.com/ai/scarynet/" />
+  <link rel="icon" sizes="512x512" href="scary_logo.png" />
+  <link rel="apple-touch-icon" href="scary_logo.png" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="canonical" href="https://demo.mobilepit.com/ai/scarynet/" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+</head>
+
+<body class="loading">
+
+
+  <h1>Scary Image filter</h1>
+  <small>&copy; 2022, Mohammad Hafiz bin Ismail </small>
+  <div id="box">
+    <p><strong>INSTRUCTION</strong>:This web application is a demonstration of ScaryNet.
+      Its main purpose is to filter disturbing or scary images.
+    </p>
+  </div>
+  <p><strong>The model is still under development.<br />Select any image to test its effectiveness.</strong></p>
+
+
+  <div class="loader" id="loader">
+    <big>Loading model...</big>
+    <img src="img/loading.gif" />
+  </div>
+
+
+  <section class="image-section">
+
+    <img src="" id="image" onclick="toggleBlur(this)" />
+    <div class="image-prediction">
+      <p><small><span id="fuzzyexplain"></span></small>
+      <p><a href="#" onclick="dprobability()">Show details</a></p>
+      <p><span class="showprobability" id="prediction"> </span>
+      </p>
+      <p>
+        <a href="#" onclick="ddx()"><i class="fa fa-share-alt" aria-hidden="true"> Share this experiment</i></a>
+      </p>
+    </div>
+  </section>
+
+  <section class="file-section">
+    <div class="file-group">
+      <label for="file-input">Upload a picture</label>
+      <input type="file" id="file-input" />
+    </div>
+  </section>
+  <p>&nbsp;</p>
+  <div id="footer">
+    <p><small>Read more information <a href="readme.html">about Scary Filter</a></small></p>
+  </div>
+  <script src="index.js"> </script>
+</body>
+
+</html>

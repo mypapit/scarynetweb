@@ -1,0 +1,22 @@
+{
+  "name": "ScaryNet test bed",
+  "short_name": "ScaryNet-Alpha",
+  "description": "ScaryNet - Compact Neural network for detecting scary images",
+  "start_url": "index.html",
+  "background_color": "#000000",
+  "theme_color": "#e3f1f8",
+  "display": "standalone",
+  "start_url": "/?standalone=true",
+  "icons": [{
+      "src": "scary_logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+        "src": "scary_logo64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      }]
+
+
+}
