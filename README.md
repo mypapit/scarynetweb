@@ -1,5 +1,5 @@
 # scarynetweb
-ScaryNet Filter - a test website for ScaryNet Convolutional Neural Network.
+ScaryNet Web Filter - a test website for ScaryNet Convolutional Neural Network.
 
 Scary Filter is a test harness which demonstrates the capability of ScaryNet in filtering scary images in web applications. In this demonstration, Scary Filter will blur an image suspected of containing scary elements. Scary Filter is written in pure HTML5 and Javascript to maximize portability across different platform and devices.
 
